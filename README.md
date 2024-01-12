@@ -11,39 +11,7 @@ This is a WhatsApp chat analyzer tool that allows you to analyze the overall gro
 - Most used emoji identification
 - Word cloud generation
 
-## Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/whatsapp-chat-analyzer.git
-   ```
-
-2. Change into the project directory:
-
-   ```bash
-   cd whatsapp-chat-analyzer
-   ```
-
-3. Install the required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. Export WhatsApp chat: Export the WhatsApp chat you want to analyze as a text file. Open the chat, go to "Settings" > "More" > "Export chat" and choose the "Without Media" option. Save the exported file to the project directory.
-
-2. Run the analyzer:
-
-   ```bash
-   streamlit run analyzer.py
-   ```
-
-3. Upload the chat file: In the Streamlit app, click on the "Choose File" button and select the exported chat file.
-
-4. Explore the analysis: Once the chat file is uploaded, the analyzer will process the data and display various analysis sections. Use the interactive widgets provided to navigate through different analysis options.
 
 ## Analysis Results
 
